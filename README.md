@@ -4,10 +4,20 @@ ProcyonWP is a collection of useful traits for WordPress development.
 
 ## Installation
 
-You can install the package via Composer:
+Add to your composer.json
 
-```bash
-composer require procyon/procyonwp
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nicolasgalvez/ProcyonWP"
+        }
+    ],
+    "require": {
+        "procyon/procyonwp": "dev-main"
+    }
+}
 ```
 
 ## Usage
